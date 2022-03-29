@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="std">
+      <UniqueIdentifier>{e833bd69-9274-428b-a607-b1d3ab343a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5da10831-983a-4371-a306-a6e173ea15ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Core">
+      <UniqueIdentifier>{f5189cb0-f2fc-4186-89d6-160ca329d722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CalssBase">
+      <UniqueIdentifier>{580a7bbe-d370-494f-b0a3-33a0cd2bb9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scene">
+      <UniqueIdentifier>{e1b5af63-89ac-4919-a0b2-0a99d128112b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Layer">
+      <UniqueIdentifier>{6f49a02a-8945-4b59-9d63-4c48bec11adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Item">
+      <UniqueIdentifier>{c69a413f-6fb2-4655-a940-1329aadb5dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{79e685ec-c30a-42cd-8f86-99469f3d87a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{fd138e05-947f-4515-8fa4-6a082d1f527a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Use">
+      <UniqueIdentifier>{943bcdea-faf0-4cbf-b477-70ea1f0fc56b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameCore.cpp">
+      <Filter>Core\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>Core\CalssBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Core\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJItem.cpp">
+      <Filter>Core\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="WNDItem.cpp">
+      <Filter>Core\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameDefine.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameCore.h">
+      <Filter>Core\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>Core\CalssBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Core\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJItem.h">
+      <Filter>Core\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="WNDItem.h">
+      <Filter>Core\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameHeader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

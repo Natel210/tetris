@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="std">
+      <UniqueIdentifier>{8dcb5b4e-3819-439b-ae64-a5b865211095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{329c011f-6a2e-46b9-813f-f1a5ae863602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerLogic">
+      <UniqueIdentifier>{8c7cc918-af4e-4afd-8671-13f7bd25bfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerLogic\Login">
+      <UniqueIdentifier>{251996b0-91b5-42df-88ed-241901eff9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerLogic\System">
+      <UniqueIdentifier>{9db59a19-d5e1-4001-b1d0-1ffcf52ea12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerLogic\Lobby">
+      <UniqueIdentifier>{532fb1d1-8987-4c78-8660-cc36cf2efc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerLogic\core">
+      <UniqueIdentifier>{80e79c3a-6792-49b8-9768-63354fcf59f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerLogic\Rank">
+      <UniqueIdentifier>{58f04476-ce4f-4175-8ff6-3f7691b6a5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerProgress">
+      <UniqueIdentifier>{8b5ca785-a95f-4d68-b506-8a9bd774503b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\ServerLogic\Room">
+      <UniqueIdentifier>{526e3217-eea6-481b-9d7c-922401ee9258}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RoomInfo.h">
+      <Filter>server\ServerLogic\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginInfo.h">
+      <Filter>server\ServerLogic\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyInfo.h">
+      <Filter>server\ServerLogic\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCore.h">
+      <Filter>server\ServerLogic\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerProgress.h">
+      <Filter>server\ServerProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerLogic.h">
+      <Filter>server\ServerProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>std</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RoomInfo.cpp">
+      <Filter>server\ServerLogic\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyInfo.cpp">
+      <Filter>server\ServerLogic\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginInfo.cpp">
+      <Filter>server\ServerLogic\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCore.cpp">
+      <Filter>server\ServerLogic\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerProgress.cpp">
+      <Filter>server\ServerProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerLogic.cpp">
+      <Filter>server\ServerProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>std</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleServer.cpp" />
+  </ItemGroup>
+</Project>

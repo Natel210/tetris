@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SubHeader.h" />
+    <ClInclude Include="Time\Time.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="Collsion\CollisionManager.h">
+      <Filter>Collsion</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderManager.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="input">
+      <UniqueIdentifier>{93a3e0fc-05b7-4bc6-8abf-10da87abf5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{2bbab200-6fc3-40b0-b480-0c82f486c1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{f9d19c18-d315-4ce0-baae-d23d3353aeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collsion">
+      <UniqueIdentifier>{4c64f3d8-1d58-499e-b6d2-98b687c56595}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Time\Time.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="Collsion\CollisionManager.cpp">
+      <Filter>Collsion</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderManager.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

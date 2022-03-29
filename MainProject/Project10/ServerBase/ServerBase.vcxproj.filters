@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PACKET">
+      <UniqueIdentifier>{3d8ebcfb-3cf5-44dc-93a4-21db8b9395c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USE">
+      <UniqueIdentifier>{416b4bca-6639-41af-aa51-e4bfc9992388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTRL">
+      <UniqueIdentifier>{e200d7f3-90ff-409f-8ffb-29b2678ace9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserPacket.h">
+      <Filter>PACKET</Filter>
+    </ClInclude>
+    <ClInclude Include="UseServer.h">
+      <Filter>USE</Filter>
+    </ClInclude>
+    <ClInclude Include="UserErrorCode.h" />
+    <ClInclude Include="UserDefines.h">
+      <Filter>PACKET</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerProgressBase.h">
+      <Filter>CTRL</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerServer.h">
+      <Filter>CTRL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UseServer.cpp">
+      <Filter>USE</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerProgressBase.cpp">
+      <Filter>CTRL</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerServer.cpp">
+      <Filter>CTRL</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

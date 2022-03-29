@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="publish|Win32">
+      <Configuration>publish</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="publish|x64">
+      <Configuration>publish</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelaseInDev|Win32">
+      <Configuration>RelaseInDev</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelaseInDev|x64">
+      <Configuration>RelaseInDev</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98A12CAF-4D7B-4376-9B20-59F7D86E0486}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='publish|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='publish|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='publish|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='publish|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)Dx32</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)Dx64</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)x32</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='publish|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)x32</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)x32</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)x64</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='publish|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)x64</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <TargetName>$(ProjectName)x64DEV</TargetName>
+    <IncludePath>..\ServerBase\;..\SubBase\;..\MainFrame\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);DEBUGMODE;_DEV;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>call ConsoleServerDx32.exe</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);DEBUGMODE;X64;_DEV;</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);_Others;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='publish|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions); _DEV</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);X64;_Others;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='publish|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);X64</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);X64; _DEV</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllSearchButton.h" />
+    <ClInclude Include="ChatEditBarItem.h" />
+    <ClInclude Include="ChatingLog.h" />
+    <ClInclude Include="ChatSendBox.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientCore.h" />
+    <ClInclude Include="ClientHeader.h" />
+    <ClInclude Include="ClientIngameEnum.h" />
+    <ClInclude Include="ClientIngameLogLayer.h" />
+    <ClInclude Include="ClientIngmaeBlock.h" />
+    <ClInclude Include="ClientIngmaeLayer.h" />
+    <ClInclude Include="ClientLobbyScene.h" />
+    <ClInclude Include="ClientLogInScene.h" />
+    <ClInclude Include="ClientMainidleItem.h" />
+    <ClInclude Include="ClientMainViewItem.h" />
+    <ClInclude Include="ClientRankingScene.h" />
+    <ClInclude Include="ClientRoomScene.h" />
+    <ClInclude Include="CreateRoomItem.h" />
+    <ClInclude Include="EnterLobbyExitItem.h" />
+    <ClInclude Include="EnterLogoutItem.h" />
+    <ClInclude Include="EnterRankingItem.h" />
+    <ClInclude Include="EnterRoomItem.h" />
+    <ClInclude Include="IdleChat.h" />
+    <ClInclude Include="IdleChatBar.h" />
+    <ClInclude Include="IdlePlayerList.h" />
+    <ClInclude Include="IdleTimeBox.h" />
+    <ClInclude Include="IdleTimerleft.h" />
+    <ClInclude Include="IdleTimerRight.h" />
+    <ClInclude Include="IngameLogExitRateItem.h" />
+    <ClInclude Include="IngameLogNextBlockItem.h" />
+    <ClInclude Include="IngameLogScoreItem.h" />
+    <ClInclude Include="IngameLogTimerItme.h" />
+    <ClInclude Include="inGameTimers.h" />
+    <ClInclude Include="LeftMoveButton.h" />
+    <ClInclude Include="LobbyChatBK.h" />
+    <ClInclude Include="LobbyCHATnWNDLayer.h" />
+    <ClInclude Include="LobbyPlayerlist.h" />
+    <ClInclude Include="LobbyPlayerlistLayer.h" />
+    <ClInclude Include="LogInEXITItem.h" />
+    <ClInclude Include="LoginFindIDPW.h" />
+    <ClInclude Include="LoginID.h" />
+    <ClInclude Include="LoginPW.h" />
+    <ClInclude Include="LoginSignup.h" />
+    <ClInclude Include="LoginToLobby.h" />
+    <ClInclude Include="MainLobbyLayer.h" />
+    <ClInclude Include="MainLogInLayer.h" />
+    <ClInclude Include="MainRankingLayer.h" />
+    <ClInclude Include="MovePageButton.h" />
+    <ClInclude Include="MoveRoomList.h" />
+    <ClInclude Include="MoveRoomListButton.h" />
+    <ClInclude Include="OtherView.h" />
+    <ClInclude Include="RankingExit.h" />
+    <ClInclude Include="RankingListItem.h" />
+    <ClInclude Include="ReadyButton.h" />
+    <ClInclude Include="ReadyStatic.h" />
+    <ClInclude Include="ReFrashButton.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResultItem.h" />
+    <ClInclude Include="RightMoveButton.h" />
+    <ClInclude Include="RoomMainIdle.h" />
+    <ClInclude Include="RoomToRobby.h" />
+    <ClInclude Include="SideView.h" />
+    <ClInclude Include="StaticRankTitle.h" />
+    <ClInclude Include="StaticRoomBox.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SubViewItem.h" />
+    <ClInclude Include="SubViewLayer.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WaitSearchButton.h" />
+    <ClInclude Include="WND_Button.h" />
+    <ClInclude Include="WND_EditBox.h" />
+    <ClInclude Include="WND_LISTBOX.h" />
+    <ClInclude Include="WND_STATIC.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AllSearchButton.cpp" />
+    <ClCompile Include="ChatEditBarItem.cpp" />
+    <ClCompile Include="ChatingLog.cpp" />
+    <ClCompile Include="ChatSendBox.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientCore.cpp" />
+    <ClCompile Include="ClientIngameEnum.cpp" />
+    <ClCompile Include="ClientIngameLogLayer.cpp" />
+    <ClCompile Include="ClientIngmaeBlock.cpp" />
+    <ClCompile Include="ClientIngmaeLayer.cpp" />
+    <ClCompile Include="ClientLobbyScene.cpp" />
+    <ClCompile Include="ClientLogInScene.cpp" />
+    <ClCompile Include="ClientMainidleItem.cpp" />
+    <ClCompile Include="ClientMainViewItem.cpp" />
+    <ClCompile Include="ClientRankingScene.cpp" />
+    <ClCompile Include="ClientRoomScene.cpp" />
+    <ClCompile Include="CreateRoomItem.cpp" />
+    <ClCompile Include="EnterLobbyExitItem.cpp" />
+    <ClCompile Include="EnterLogoutItem.cpp" />
+    <ClCompile Include="EnterRankingItem.cpp" />
+    <ClCompile Include="EnterRoomItem.cpp" />
+    <ClCompile Include="IdleChat.cpp" />
+    <ClCompile Include="IdleChatBar.cpp" />
+    <ClCompile Include="IdlePlayerList.cpp" />
+    <ClCompile Include="IdleTimeBox.cpp" />
+    <ClCompile Include="IdleTimerleft.cpp" />
+    <ClCompile Include="IdleTimerRight.cpp" />
+    <ClCompile Include="IngameLogExitRateItem.cpp" />
+    <ClCompile Include="IngameLogNextBlockItem.cpp" />
+    <ClCompile Include="IngameLogScoreItem.cpp" />
+    <ClCompile Include="IngameLogTimerItme.cpp" />
+    <ClCompile Include="inGameTimers.cpp" />
+    <ClCompile Include="LeftMoveButton.cpp" />
+    <ClCompile Include="LobbyChatBK.cpp" />
+    <ClCompile Include="LobbyCHATnWNDLayer.cpp" />
+    <ClCompile Include="LobbyPlayerlist.cpp" />
+    <ClCompile Include="LobbyPlayerlistLayer.cpp" />
+    <ClCompile Include="LogInEXITItem.cpp" />
+    <ClCompile Include="LoginFindIDPW.cpp" />
+    <ClCompile Include="LoginID.cpp" />
+    <ClCompile Include="LoginPW.cpp" />
+    <ClCompile Include="LoginSignup.cpp" />
+    <ClCompile Include="LoginToLobby.cpp" />
+    <ClCompile Include="MainLobbyLayer.cpp" />
+    <ClCompile Include="MainLogInLayer.cpp" />
+    <ClCompile Include="MainRankingLayer.cpp" />
+    <ClCompile Include="MovePageButton.cpp" />
+    <ClCompile Include="MoveRoomList.cpp" />
+    <ClCompile Include="MoveRoomListButton.cpp" />
+    <ClCompile Include="OtherView.cpp" />
+    <ClCompile Include="RankingExit.cpp" />
+    <ClCompile Include="RankingListItem.cpp" />
+    <ClCompile Include="ReadyButton.cpp" />
+    <ClCompile Include="ReadyStatic.cpp" />
+    <ClCompile Include="ReFrashButton.cpp" />
+    <ClCompile Include="ResultItem.cpp" />
+    <ClCompile Include="RightMoveButton.cpp" />
+    <ClCompile Include="RoomMainIdle.cpp" />
+    <ClCompile Include="RoomToRobby.cpp" />
+    <ClCompile Include="SideView.cpp" />
+    <ClCompile Include="StaticRankTitle.cpp" />
+    <ClCompile Include="StaticRoomBox.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='publish|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='publish|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelaseInDev|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SubViewItem.cpp" />
+    <ClCompile Include="SubViewLayer.cpp" />
+    <ClCompile Include="WaitSearchButton.cpp" />
+    <ClCompile Include="WND_Button.cpp" />
+    <ClCompile Include="WND_EditBox.cpp" />
+    <ClCompile Include="WND_LISTBOX.cpp" />
+    <ClCompile Include="WND_STATIC.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp" />
+    <Image Include="Client.ico" />
+    <Image Include="icon1.ico" />
+    <Image Include="Selbuttontype1.bmp" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Client.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="std">
+      <UniqueIdentifier>{c3034bcf-e561-4dde-b5b0-c1ed9980686c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{4b0481ed-8714-459f-95f4-480c13f80700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{72ec9f2f-6a08-40b8-a830-9bb8a0f76428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogIn">
+      <UniqueIdentifier>{27095674-569a-49f2-8143-dc554d585832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby">
+      <UniqueIdentifier>{7cea802f-45e6-4bbf-af01-324bd22f7ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{06cb9b1b-f045-4f3d-bf95-7290281b4256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame">
+      <UniqueIdentifier>{c5a9c0cf-6696-45e0-9d4e-75938d9d04fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\MainView">
+      <UniqueIdentifier>{c59f9221-0397-475e-8e35-e52fccf1f37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\MainView\Layer">
+      <UniqueIdentifier>{378cd9de-4aa5-4b23-a253-863b79054252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\MainView\Items">
+      <UniqueIdentifier>{cf3dd049-14b1-4ea6-9791-efeca004026b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\SubView">
+      <UniqueIdentifier>{3d2a0c21-ac04-4cb4-91f8-531ddbbac7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\LogView">
+      <UniqueIdentifier>{c14ce02c-bb12-4d85-897e-953f2f8363de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\SubView\Layer">
+      <UniqueIdentifier>{3ef7790b-18ce-4794-b2b3-75f3e90dc491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle">
+      <UniqueIdentifier>{a5d5e453-d520-42db-a7d9-9e967bb9b130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\LogView\items">
+      <UniqueIdentifier>{246174e2-1539-4a39-a4f2-4f21a8a6c7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\inlobby">
+      <UniqueIdentifier>{b4092e3e-7b36-4fee-95e2-df7a953c1efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ranking">
+      <UniqueIdentifier>{33e46d08-3b62-4252-a4fd-0ec4bd9666eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ranking\mainRank">
+      <UniqueIdentifier>{a0f8e8df-fad6-4cda-853b-cd0d9ca2b735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonItem">
+      <UniqueIdentifier>{b47e3ede-5c7e-4f46-b5e9-cef652ee633b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogIn\mainLogin">
+      <UniqueIdentifier>{d5275d9e-52c6-4a1e-b650-00336b50d9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogIn\mainLogin\items">
+      <UniqueIdentifier>{92a93209-746e-412b-bbe8-1c72490c512a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\PlayerList">
+      <UniqueIdentifier>{be505e26-f8d2-4f6c-9b0e-e0128f9ad27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\CHAT">
+      <UniqueIdentifier>{cf966632-970e-4a49-8c6f-a8d821d79ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\CHAT\item">
+      <UniqueIdentifier>{98844788-f54f-4e0d-9c99-bd9476a3e830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\CHAT\item\CHAT">
+      <UniqueIdentifier>{09b03353-89c1-45d9-8053-7dbdf69b7306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\CHAT\item\BK">
+      <UniqueIdentifier>{d1fc8194-2f68-401b-9ade-4acc94a8046b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\inlobby\Item">
+      <UniqueIdentifier>{434dfae7-1023-4b09-b8ce-d53887a6a11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\PlayerList\Item">
+      <UniqueIdentifier>{63d8a1d8-6c38-4c3e-a0b8-f9924b86bbe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ranking\mainRank\wnditem">
+      <UniqueIdentifier>{c49f8458-7471-4eff-afdd-256fe037f2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\Layer">
+      <UniqueIdentifier>{5f3e7e2a-0484-40fc-a5c8-6106458d0fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby\inlobby\WNDBOX">
+      <UniqueIdentifier>{c148ce58-fd1a-4111-a1dc-a8834b12e469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\SideView">
+      <UniqueIdentifier>{abff0eba-d9a9-4807-9a40-ed10ded9137e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\Main">
+      <UniqueIdentifier>{a26e45c0-27ed-4e1c-a290-21b586fccd11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\Other">
+      <UniqueIdentifier>{1a4d172d-d9e9-4ac7-bd0b-d223a3df9cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\Main\item">
+      <UniqueIdentifier>{4b410aad-f3db-4581-979b-28115e1e3e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\Other\item">
+      <UniqueIdentifier>{fe7fc833-eb1b-403b-b446-fa9a064ffe99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\SideView\Item">
+      <UniqueIdentifier>{8fe84e67-ed3d-46c7-a001-ddf4e56fbac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\SideView\Item\timer">
+      <UniqueIdentifier>{f828ff6a-6e64-41fd-b95a-e466c62766ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\SideView\Item\chat">
+      <UniqueIdentifier>{55c79f2f-ad1e-407e-bc78-89ac290e478a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\SideView\Item\exit">
+      <UniqueIdentifier>{5163ae60-83ba-4046-b82a-0c794aa34afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\idle\SideView\Item\layerlist">
+      <UniqueIdentifier>{10641229-5569-4161-b904-ff3e43385ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\common">
+      <UniqueIdentifier>{d9cec8e1-8bfd-4e30-8c94-371fd5d2caf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\common\Items">
+      <UniqueIdentifier>{c6461415-1776-4182-aa58-0fcd600c3051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room\ingame\SubView\itme">
+      <UniqueIdentifier>{b2180ab1-ab2f-472f-9669-1db1c4e764a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientCore.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientLobbyScene.h">
+      <Filter>Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientLogInScene.h">
+      <Filter>LogIn</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRoomScene.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientHeader.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientIngmaeBlock.h">
+      <Filter>Room\ingame\MainView\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientMainViewItem.h">
+      <Filter>Room\ingame\MainView\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientIngmaeLayer.h">
+      <Filter>Room\ingame\MainView\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="SubViewLayer.h">
+      <Filter>Room\ingame\SubView\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientIngameLogLayer.h">
+      <Filter>Room\ingame\LogView</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameLogTimerItme.h">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameLogExitRateItem.h">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameLogNextBlockItem.h">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameLogScoreItem.h">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLogInLayer.h">
+      <Filter>LogIn\mainLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLobbyLayer.h">
+      <Filter>Lobby\inlobby</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRankingScene.h">
+      <Filter>Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="MainRankingLayer.h">
+      <Filter>Ranking\mainRank</Filter>
+    </ClInclude>
+    <ClInclude Include="WND_Button.h">
+      <Filter>CommonItem</Filter>
+    </ClInclude>
+    <ClInclude Include="LogInEXITItem.h">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginToLobby.h">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginFindIDPW.h">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClInclude>
+    <ClInclude Include="WND_EditBox.h">
+      <Filter>CommonItem</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginID.h">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginPW.h">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClInclude>
+    <ClInclude Include="WND_STATIC.h">
+      <Filter>CommonItem</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyCHATnWNDLayer.h">
+      <Filter>Lobby\CHAT</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyPlayerlistLayer.h">
+      <Filter>Lobby\PlayerList</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterRoomItem.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterRankingItem.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterLogoutItem.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRoomItem.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterLobbyExitItem.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatEditBarItem.h">
+      <Filter>Lobby\CHAT\item\CHAT</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatSendBox.h">
+      <Filter>Lobby\CHAT\item\CHAT</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatingLog.h">
+      <Filter>Lobby\CHAT\item\CHAT</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientIngameEnum.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyChatBK.h">
+      <Filter>Lobby\CHAT\item\BK</Filter>
+    </ClInclude>
+    <ClInclude Include="WND_LISTBOX.h">
+      <Filter>CommonItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticRoomBox.h">
+      <Filter>Lobby\inlobby\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginSignup.h">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRoomList.h">
+      <Filter>Lobby\inlobby\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyPlayerlist.h">
+      <Filter>Lobby\PlayerList\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingListItem.h">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingExit.h">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRoomListButton.h">
+      <Filter>Lobby\inlobby\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="inGameTimers.h">
+      <Filter>Room\idle\SideView\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="AllSearchButton.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftMoveButton.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="RightMoveButton.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitSearchButton.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherView.h">
+      <Filter>Room\idle\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomMainIdle.h">
+      <Filter>Room\idle\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SideView.h">
+      <Filter>Room\idle\SideView</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadyButton.h">
+      <Filter>Room\idle\Main\item</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientMainidleItem.h">
+      <Filter>Room\idle\Main\item</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomToRobby.h">
+      <Filter>Room\idle\SideView\Item\exit</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleChat.h">
+      <Filter>Room\idle\SideView\Item\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleChatBar.h">
+      <Filter>Room\idle\SideView\Item\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleTimerRight.h">
+      <Filter>Room\idle\SideView\Item\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleTimeBox.h">
+      <Filter>Room\idle\SideView\Item\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleTimerleft.h">
+      <Filter>Room\idle\SideView\Item\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="IdlePlayerList.h">
+      <Filter>Room\idle\SideView\Item\layerlist</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadyStatic.h">
+      <Filter>Room\idle\Other\item</Filter>
+    </ClInclude>
+    <ClInclude Include="SubViewItem.h">
+      <Filter>Room\common\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticRankTitle.h">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClInclude>
+    <ClInclude Include="ReFrashButton.h">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultItem.h">
+      <Filter>Room\ingame\SubView\itme</Filter>
+    </ClInclude>
+    <ClInclude Include="MovePageButton.h">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>std</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientCore.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientLobbyScene.cpp">
+      <Filter>Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientLogInScene.cpp">
+      <Filter>LogIn</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientRoomScene.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientIngmaeBlock.cpp">
+      <Filter>Room\ingame\MainView\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientMainViewItem.cpp">
+      <Filter>Room\ingame\MainView\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientIngmaeLayer.cpp">
+      <Filter>Room\ingame\MainView\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="SubViewLayer.cpp">
+      <Filter>Room\ingame\SubView\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientIngameLogLayer.cpp">
+      <Filter>Room\ingame\LogView</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameLogExitRateItem.cpp">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameLogNextBlockItem.cpp">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameLogScoreItem.cpp">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameLogTimerItme.cpp">
+      <Filter>Room\ingame\LogView\items</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLogInLayer.cpp">
+      <Filter>LogIn\mainLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLobbyLayer.cpp">
+      <Filter>Lobby\inlobby</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientRankingScene.cpp">
+      <Filter>Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="MainRankingLayer.cpp">
+      <Filter>Ranking\mainRank</Filter>
+    </ClCompile>
+    <ClCompile Include="WND_Button.cpp">
+      <Filter>CommonItem</Filter>
+    </ClCompile>
+    <ClCompile Include="LogInEXITItem.cpp">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginToLobby.cpp">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginFindIDPW.cpp">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClCompile>
+    <ClCompile Include="WND_EditBox.cpp">
+      <Filter>CommonItem</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginID.cpp">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginPW.cpp">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClCompile>
+    <ClCompile Include="WND_STATIC.cpp">
+      <Filter>CommonItem</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyCHATnWNDLayer.cpp">
+      <Filter>Lobby\CHAT</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyPlayerlistLayer.cpp">
+      <Filter>Lobby\PlayerList</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterRankingItem.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterRoomItem.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterLogoutItem.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateRoomItem.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterLobbyExitItem.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatEditBarItem.cpp">
+      <Filter>Lobby\CHAT\item\CHAT</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatingLog.cpp">
+      <Filter>Lobby\CHAT\item\CHAT</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatSendBox.cpp">
+      <Filter>Lobby\CHAT\item\CHAT</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientIngameEnum.cpp">
+      <Filter>std</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyChatBK.cpp">
+      <Filter>Lobby\CHAT\item\BK</Filter>
+    </ClCompile>
+    <ClCompile Include="WND_LISTBOX.cpp">
+      <Filter>CommonItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticRoomBox.cpp">
+      <Filter>Lobby\inlobby\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginSignup.cpp">
+      <Filter>LogIn\mainLogin\items</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRoomList.cpp">
+      <Filter>Lobby\inlobby\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyPlayerlist.cpp">
+      <Filter>Lobby\PlayerList\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingExit.cpp">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingListItem.cpp">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRoomListButton.cpp">
+      <Filter>Lobby\inlobby\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="inGameTimers.cpp">
+      <Filter>Room\idle\SideView\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="AllSearchButton.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftMoveButton.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="RightMoveButton.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitSearchButton.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherView.cpp">
+      <Filter>Room\idle\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomMainIdle.cpp">
+      <Filter>Room\idle\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SideView.cpp">
+      <Filter>Room\idle\SideView</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadyButton.cpp">
+      <Filter>Room\idle\Main\item</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientMainidleItem.cpp">
+      <Filter>Room\idle\Main\item</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomToRobby.cpp">
+      <Filter>Room\idle\SideView\Item\exit</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleChat.cpp">
+      <Filter>Room\idle\SideView\Item\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleChatBar.cpp">
+      <Filter>Room\idle\SideView\Item\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleTimeBox.cpp">
+      <Filter>Room\idle\SideView\Item\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleTimerleft.cpp">
+      <Filter>Room\idle\SideView\Item\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleTimerRight.cpp">
+      <Filter>Room\idle\SideView\Item\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="IdlePlayerList.cpp">
+      <Filter>Room\idle\SideView\Item\layerlist</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadyStatic.cpp">
+      <Filter>Room\idle\Other\item</Filter>
+    </ClCompile>
+    <ClCompile Include="SubViewItem.cpp">
+      <Filter>Room\common\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticRankTitle.cpp">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClCompile>
+    <ClCompile Include="ReFrashButton.cpp">
+      <Filter>Ranking\mainRank\wnditem</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultItem.cpp">
+      <Filter>Room\ingame\SubView\itme</Filter>
+    </ClCompile>
+    <ClCompile Include="MovePageButton.cpp">
+      <Filter>Lobby\inlobby\WNDBOX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="icon1.ico" />
+    <Image Include="bitmap1.bmp" />
+    <Image Include="Selbuttontype1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>std</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
